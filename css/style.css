@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
 }
 
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 0;
+}
+
 @font-face {
     src: url('../fonts/Pari-MatchRegular.ttf');
     font-family: 'parimatch';
