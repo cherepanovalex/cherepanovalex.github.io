@@ -1,5 +1,8 @@
 /* сотовый телефон */
 @media (max-width: 767px) {
+    #myVideo{
+        display: none;
+    }
     .scr1 {
         left: 100px;
         width: 170px;
@@ -140,6 +143,9 @@
 
 /* планшет */
 @media (min-width: 767px) and (max-width: 1099px) {
+    #myVideo{
+        display: none;
+    }
     .scr1 {
         left: 230px;
     }
