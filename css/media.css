@@ -83,14 +83,15 @@
     }
     .figures .scratch {
         bottom: 100px;
-        left: 65px;
+        left: auto;
+        right: 0;
         width: 255px;
         height: 120px;
         background-size: cover;
         font-size: 14px;
     }
     .animate .figures .scratch{
-        left: 65px;
+        left: auto;
     }
 
     .figures .scratch span {
