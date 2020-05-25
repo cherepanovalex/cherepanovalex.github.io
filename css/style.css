@@ -59,6 +59,7 @@ a:focus, button:focus, *:focus {
 
 main{
     flex: 1;
+    position: relative;
 }
 
 header{
@@ -389,7 +390,7 @@ footer{
 
 .scr2{
     position: absolute;
-    right: -40px;
+    right: 0;
     top:400px;
     transition: all 400ms;
 }
@@ -399,7 +400,7 @@ footer{
 }
 
 .animate .scr2{
-    right: 0;
+    top:420px;
 }
 
 .modal-terms {
@@ -467,4 +468,8 @@ footer{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+.mCSB_inside>.mCSB_container {
+    padding-left: 15px;
 }

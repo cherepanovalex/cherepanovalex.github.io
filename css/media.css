@@ -1,5 +1,8 @@
 /* сотовый телефон */
 @media (max-width: 767px) {
+    body{
+        height: 100%;
+    }
     #myVideo{
         display: none;
     }
@@ -7,11 +10,19 @@
         left: 100px;
         width: 170px;
     }
+    .animate .scr1{
+        left: 110px;
+    }
     .scr2 {
         right: 0;
         top: 470px;
         width: 120px;
     }
+
+    .animate .scr2{
+        top:480px;
+    }
+
     .logo img {
         width: 90px;
         height: 27px;
@@ -68,16 +79,20 @@
         padding-bottom: 318px;
     }
     .figures{
-        bottom: -120px;
+        bottom: -86px;
     }
     .figures .scratch {
         bottom: 100px;
-        left: 100px;
+        left: 65px;
         width: 255px;
         height: 120px;
         background-size: cover;
         font-size: 14px;
     }
+    .animate .figures .scratch{
+        left: 65px;
+    }
+
     .figures .scratch span {
         padding: 40px 0 0 20px;
     }
